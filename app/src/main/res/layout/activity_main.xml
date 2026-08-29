@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+
+    <!-- VLC 视频渲染 Surface（默认隐藏，投屏后显示） -->
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+		android:fitsSystemWindows="false"
+        android:visibility="gone" />
+	<TextView
+		android:id="@+id/title_overlay"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentStart="true"
+		android:layout_marginStart="16dp"
+		android:layout_marginTop="16dp"
+		android:paddingStart="12dp"
+		android:paddingEnd="12dp"
+		android:paddingTop="6dp"
+		android:paddingBottom="6dp"
+		android:textColor="#FFFFFF"
+		android:textSize="14sp"
+		android:maxLines="2"
+		android:ellipsize="end"
+		android:visibility="gone" />
+	
+    <!-- 居中状态文字 -->
+    <TextView
+        android:id="@+id/status_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+		android:fitsSystemWindows="false"
+        android:gravity="center" />
+
+    <!-- 加载提示（屏幕正中央） -->
+    <ProgressBar
+        android:id="@+id/loading_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+		android:fitsSystemWindows="false"
+        android:visibility="gone" />
+
+</FrameLayout>
+

@@ -1,39 +1,35 @@
-# VLCDLNA
+# 📺 VLCDLNA
 
-#### 介绍
-{**以下是 Gitee 平台说明，您可以替换此简介**
-Gitee 是 OSCHINA 推出的基于 Git 的代码托管平台（同时支持 SVN）。专为开发者提供稳定、高效、安全的云端软件开发协作平台
-无论是个人、团队、或是企业，都能够用 Gitee 实现代码托管、项目管理、协作开发。企业项目请看 [https://gitee.com/enterprises](https://gitee.com/enterprises)}
+<div align="center">
 
-#### 软件架构
-软件架构说明
+**基于 libVLC 的 Android DLNA DMR 投屏接收端**
 
+[![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg)](https://www.android.com/)
+[![SDK](https://img.shields.io/badge/DLNA%20SDK-org.dlna-blue.svg)](https://gitee.com/)
+[![Player](https://img.shields.io/badge/Player-libVLC-orange.svg)](https://www.videolan.org/vlc/libvlc.html)
 
-#### 安装教程
+</div>
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+---
 
-#### 使用说明
+## 📖 项目介绍
 
-1.  xxxx
-2.  xxxx
-3.  xxxx
+**VLCDLNA** 是一款运行在 Android 设备上的 **DLNA DMR（Digital Media Renderer）** 应用，允许同一局域网内的设备通过 DLNA 协议将音视频无线投射到该设备播放。底层使用 **libVLC** 作为解码引擎，兼容最新 `tv.dlna` SDK。
 
-#### 参与贡献
+---
 
-1.  Fork 本仓库
-2.  新建 Feat_xxx 分支
-3.  提交代码
-4.  新建 Pull Request
+## ✨ 核心特性
 
+| 特性 | 说明 |
+|------|------|
+| 🔍 自动发现 | 同一 WiFi 下可被系统投屏/视频 App 搜索到 |
+| 📡 协议支持 | 完整实现 UPnP AVTransport / RenderingControl |
+| 🎬 强大解码 | 基于 libVLC，支持 RTSP / HTTP / HLS / RTMP 等 |
+| 📊 进度同步 | 每 800ms 向控制点上报播放进度与状态 |
+| 🔒 UDN 持久化 | 设备唯一标识持久化，避免控制端频繁刷新 |
 
-#### 特技
+---
 
-1.  使用 Readme\_XXX.md 来支持不同的语言，例如 Readme\_en.md, Readme\_zh.md
-2.  Gitee 官方博客 [blog.gitee.com](https://blog.gitee.com)
-3.  你可以 [https://gitee.com/explore](https://gitee.com/explore) 这个地址来了解 Gitee 上的优秀开源项目
-4.  [GVP](https://gitee.com/gvp) 全称是 Gitee 最有价值开源项目，是综合评定出的优秀开源项目
-5.  Gitee 官方提供的使用手册 [https://gitee.com/help](https://gitee.com/help)
-6.  Gitee 封面人物是一档用来展示 Gitee 会员风采的栏目 [https://gitee.com/gitee-stars/](https://gitee.com/gitee-stars/)
+## 🏗 软件架构
+
+- x86_64 arm64
