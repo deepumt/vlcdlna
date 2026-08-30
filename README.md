@@ -30,6 +30,8 @@
 
 ---
 
+获取:→[[普通下载](https://gitee.com/zxc72/vlcdlna/releases/download/1.23/vlcdlna_1.23.4-tv.apk)]
+
 ## 🏗 软件架构
 
 - x86_64 arm64
