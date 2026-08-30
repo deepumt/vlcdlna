@@ -159,10 +159,10 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback, Me
         options.add("--avcodec-fast");
         options.add("--drop-late-frames");
         options.add("--skip-frames");
-        options.add("--aout=opensles");
         options.add("--audio-time-stretch");
         options.add("--no-sub-autodetect-file");
-        options.add("--codec=mediacodec,all");
+        options.add("--codec=mediacodec");
+		
 
         mLibVLC = new LibVLC(this, options);
         mMediaPlayer = new MediaPlayer(mLibVLC);
@@ -421,6 +421,8 @@ public class MainActivity extends Activity implements SurfaceHolder.Callback, Me
             } else if (url.startsWith("http://") || url.startsWith("https://")) {
                 media.addOption(":http-reconnect=true");
                 media.addOption(":network-caching=2000");
+				media.addOption(":no-tls-check-cert");
+				media.addOption(":no-tls-check-hostname");
             }
 
             mMediaPlayer.setMedia(media);
