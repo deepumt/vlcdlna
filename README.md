@@ -19,6 +19,8 @@
 ## 🖥 APP介绍
 
 软件介绍:→( **vlcdlna** 是一款安卓TV投屏软件,安上该软件可以让您的原生电视的投屏扩展增强,可让您的电视兼容其他格式的投屏视频,视频播放器采用vlc,让您的电视/盒子再战10年,该播放器目前只支持投视频,)
+
+vlcdlna is an Android TV screencasting software. Installing this software can enhance the screencasting extension of your native TV, making your TV compatible with other formats of screencasting videos. The video player uses the vlc kernel, allowing your TV/box to compete for another 10 years. This player currently only supports video casting.
 ---
 
 ## ✨ 核心特性
