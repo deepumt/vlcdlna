@@ -5,7 +5,6 @@
 **基于 libVLC 的 Android DLNA DMR 投屏接收端**
 
 [![Platform](https://img.shields.io/badge/platform-Android-brightgreen.svg)](https://www.android.com/)
-[![SDK](https://img.shields.io/badge/DLNA%20SDK-org.dlna-blue.svg)](https://gitee.com/)
 [![Player](https://img.shields.io/badge/Player-libVLC-orange.svg)](https://www.videolan.org/vlc/libvlc.html)
 
 </div>
