@@ -1,5 +1,7 @@
 # 📺 VLCDLNA
 
+![演示图](.gitee/3295bcd00a7158c31c48b4ee19787a68.jpeg)
+
 <div align="center">
 
 **基于 libVLC 的 Android DLNA DMR 投屏接收端**
